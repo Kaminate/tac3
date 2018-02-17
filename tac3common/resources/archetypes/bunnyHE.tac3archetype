@@ -1,0 +1,8 @@
+numComponents 1
+
+componentType "ModelComponent"
+  scene "world"
+  geometry "bunny"
+  diffuse "..\tac3common\resources\textures\brix.jpg"
+
+

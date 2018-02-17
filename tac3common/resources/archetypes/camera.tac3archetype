@@ -1,0 +1,20 @@
+numComponents 1
+
+componentType "CameraComponent"
+  scene "world"
+  ortho 0
+  near 1
+  far 1000
+  fovYradians 1.74
+  aspect 1.77
+  orthowidth 256
+  orthoheight 256
+worldspaceUp
+    x 0
+    y 0
+    z 1
+viewDir
+    x 0
+    y 1
+    z 0
+

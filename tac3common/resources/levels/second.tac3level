@@ -1,0 +1,100 @@
+numEntities 7
+
+position
+  x 0
+  y 0
+  z 0
+rotation
+  x 0
+  y 0
+  z 0
+scale
+  x 20
+  y 20
+  z 0.2
+archetype "cube"
+
+position
+  x -1.99997
+  y -21
+  z 5.7
+rotation
+  x 0
+  y 0
+  z 0
+scale
+  x 1
+  y 1
+  z 1
+archetype "camera"
+
+position
+  x 0
+  y -5.35068
+  z 0.58
+rotation
+  x 1.68
+  y -0.13
+  z 0.01
+scale
+  x 0.05
+  y 0.05
+  z 0.05
+archetype "ninja"
+
+position
+  x 2.95
+  y -5.13
+  z 0.57
+rotation
+  x 1.85
+  y 0
+  z 0
+scale
+  x 0.35
+  y 0.35
+  z 0.35
+archetype "skullkid"
+
+position
+  x -6.81
+  y -7.69
+  z 0
+rotation
+  x 1.57
+  y 0
+  z 0
+scale
+  x 0.05
+  y 0.05
+  z 0.05
+archetype "amazon"
+
+position
+  x -4.5
+  y -9.44
+  z 5
+rotation
+  x 0
+  y 0
+  z 0
+scale
+  x 8.5
+  y 1
+  z 1
+archetype "whiteLight"
+
+position
+  x 3.66
+  y -9.87
+  z 3.46
+rotation
+  x 0
+  y 0
+  z 0
+scale
+  x 3.89
+  y 1
+  z 1
+archetype "orangeLight"
+

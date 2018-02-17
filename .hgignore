@@ -1,0 +1,16 @@
+syntax: glob
+*.tlog
+*.log
+*.obj
+*.lastbuildstate
+*.idb
+*.pdb
+*.sdf
+*.suo
+*.exe
+*.ilk
+*.user
+*.opensdf
+tac3graphics.lib
+tac3core.lib
+tac3common.lib

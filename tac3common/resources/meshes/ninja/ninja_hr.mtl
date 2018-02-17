@@ -1,0 +1,40 @@
+newmtl ninja_hr-water
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd ninja_hr-water.png
+map_d ninja_hr-water.png
+
+newmtl ninja_hr-fire
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd ninja_hr-fire.png
+map_d ninja_hr-fire.png
+
+newmtl ninja_hr-wind
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd ninja_hr-wind.png
+map_d ninja_hr-wind.png
+
+newmtl ninja_hr-light
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd ninja_hr-light.png
+map_d ninja_hr-light.png
+
+newmtl ninja_hr-dark
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd ninja_hr-dark.png
+map_d ninja_hr-dark.png
+

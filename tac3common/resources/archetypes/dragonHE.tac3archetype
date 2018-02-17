@@ -1,0 +1,6 @@
+numComponents 1
+
+componentType ModelComponent
+  scene world
+  geometry dragon
+

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tac3core\include\core\tac3component.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3core.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3entity.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3system.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3systemApplication.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3systemGraphics.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tacWorldRenderTechnique.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3input.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3level.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3pid.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3ui.h" />
+    <ClInclude Include="..\..\tac3core\include\core\TacTweak.h" />
+    <ClInclude Include="..\..\tac3core\src\imconfig.h" />
+    <ClInclude Include="..\..\tac3core\src\imgui.h" />
+    <ClInclude Include="..\..\tac3core\src\stb_textedit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tac3core\src\tac3component.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3core.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3entity.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3system.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3systemApplication.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3systemGraphics.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tacWorldRenderTechnique.cpp" />
+    <ClCompile Include="..\..\tac3core\src\imgui.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3input.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3level.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3pid.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3ui.cpp" />
+    <ClCompile Include="..\..\tac3core\src\TacTweak.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2C0F8AFF-6D64-4644-AE8E-DF79AA498D7F}</ProjectGuid>
+    <RootNamespace>tac3editor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\tac3cool.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\tac3cool.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)../src;$(ProjectDir)../../tac3graphics/include;$(ProjectDir)../../tac3common/include;$(ProjectDir)../../tac3common/src;$(ProjectDir)../include;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)../lib/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)../src;$(ProjectDir)../../tac3graphics/include;$(ProjectDir)../../tac3common/include;$(ProjectDir)../../tac3common/src;$(ProjectDir)../include;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)../lib/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

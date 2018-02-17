@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3acceleration.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3camera.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3framebuffer.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3geometry.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3light.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3material.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3model.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3program.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3renderer.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3shader.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3skeleton.h" />
+    <ClInclude Include="..\..\..\Nathan%27s Stuff\tac3graphics\src\tac3texture.h" />
+  </ItemGroup>
+</Project>

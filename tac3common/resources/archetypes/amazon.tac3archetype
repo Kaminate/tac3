@@ -1,0 +1,8 @@
+numComponents 1
+
+componentType "ModelComponent"
+  scene "world"
+  geometry "amazon"
+  diffuse "..\tac3common\resources\meshes\amazonA\amazon_hr-light.png"
+  specular "default 1x1 black texture"
+

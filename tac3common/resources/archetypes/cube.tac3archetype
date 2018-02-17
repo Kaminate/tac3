@@ -1,0 +1,8 @@
+numComponents 1
+
+componentType "ModelComponent"
+  scene "world"
+  geometry "cube"
+  diffuse "..\tac3common\resources\textures\brix.jpg"
+  specular "default 1x1 green texture"
+

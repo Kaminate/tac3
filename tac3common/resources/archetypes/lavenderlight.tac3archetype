@@ -1,0 +1,29 @@
+numComponents 1
+
+componentType "LightComponent"
+  scene "world"
+  lighttype 1
+diffuse
+    x 1
+    y 0.682353
+    z 0.713726
+ambient
+    x 0
+    y 0
+    z 0
+specular
+    x 1
+    y 1
+    z 1
+  innerAngle 0.261667
+  outerAngle 0.523333
+  spotFalloff 1
+globalAmbient
+    x 0.2
+    y 0.2
+    z 0.2
+attenuation
+    x 1
+    y 0.1
+    z 0
+

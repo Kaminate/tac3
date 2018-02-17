@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\tac3editor\src\tac3Editor.cpp" />
+    <ClCompile Include="..\..\tac3editor\src\tac3mainEditor.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3matrix3.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3matrix4.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3vector2.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3vector3.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3vector4.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3util\tac3fileutil.cpp" />
+    <ClCompile Include="..\..\tac3editor\src\tac3modelconverter.cpp" />
+    <ClCompile Include="..\..\tac3editor\src\tac3normalmapgenerator.cpp" />
+    <ClCompile Include="..\..\tac3editor\src\tac3cs300_2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tac3editor\src\tac3Editor.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3matrix3.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3matrix4.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3vector2.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3vector3.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3vector4.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3util\tac3fileutil.h" />
+    <ClInclude Include="..\..\tac3editor\src\tac3modelconverter.h" />
+    <ClInclude Include="..\..\tac3editor\src\tac3normalmapgenerator.h" />
+    <ClInclude Include="..\..\tac3editor\src\tac3cs300_2.h" />
+    <ClInclude Include="..\..\..\..\Nathan%27s Stuff\tac3cool\tac3editor\src\tac3cs350_stuff.h" />
+  </ItemGroup>
+</Project>

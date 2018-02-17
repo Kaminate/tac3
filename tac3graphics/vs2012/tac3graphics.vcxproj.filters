@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\tac3graphics\include\graphics\gl_core_4_4.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3acceleration.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3camera.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3halfedge.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3framebuffer.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3geometry.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3gl.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3light.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3material.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3model.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3program.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3skeleton.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tac3texture.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\TacFramebufferStage.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\TacRenderer.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\TacRendererState.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\TacResourceManger.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\TacScene.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\tacShader.h" />
+    <ClInclude Include="..\..\tac3graphics\include\graphics\TacTechnique.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tac3graphics\src\gl_core_4_4.c" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3acceleration.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3camera.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3framebuffer.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3geometry.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3gl.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3light.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3material.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3model.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3program.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3shader.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3skeleton.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3texture.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\TacFramebufferStage.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\TacRenderer.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\TacRendererState.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\TacResourceManger.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\TacScene.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\TacTechnique.cpp" />
+    <ClCompile Include="..\..\tac3graphics\src\tac3halfedge.cpp" />
+  </ItemGroup>
+</Project>

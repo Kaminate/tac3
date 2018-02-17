@@ -1,0 +1,8 @@
+numComponents 1
+
+componentType "ModelComponent"
+  scene "world"
+  geometry "skullkid"
+  diffuse "..\tac3common\resources\meshes\skullkid\model.nut0.png"
+  specular "default 1x1 white texture"
+

@@ -1,0 +1,40 @@
+newmtl amazon_hr-water
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd amazon_hr-water.png
+map_d amazon_hr-water.png
+
+newmtl amazon_hr-fire
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd amazon_hr-fire.png
+map_d amazon_hr-fire.png
+
+newmtl amazon_hr-wind
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd amazon_hr-wind.png
+map_d amazon_hr-wind.png
+
+newmtl amazon_hr-light
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd amazon_hr-light.png
+map_d amazon_hr-light.png
+
+newmtl amazon_hr-dark
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+d 0.0
+map_Kd amazon_hr-dark.png
+map_d amazon_hr-dark.png
+

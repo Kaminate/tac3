@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir>$(ProjectDir)../</OutDir>
+    <IncludePath>$(ProjectDir)../../tac3core/include;$(ProjectDir)../../tac3common/include;$(ProjectDir)../../tac3common/src;$(ProjectDir)../../tac3graphics/include;C:\Program Files (x86)\Visual Leak Detector\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)../../tac3common/lib;$(ProjectDir)../../tac3core/lib;$(ProjectDir)../../tac3graphics/lib;C:\Program Files (x86)\Visual Leak Detector\lib\Win32;$(LibraryPath)</LibraryPath>
+    <SourcePath>$(VCInstallDir)atlmfc\src\mfc;$(VCInstallDir)atlmfc\src\mfcm;$(VCInstallDir)atlmfc\src\atl;$(VCInstallDir)crt\src</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>assimp.lib;AntTweakBar.lib;SDL2.lib;SDL2main.lib;SDL2test.lib;opengl32.lib;tac3common.lib;tac3core.lib;tac3graphics.lib;FreeImage.lib;user32.lib;Comdlg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

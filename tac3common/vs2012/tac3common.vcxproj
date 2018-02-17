@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF967484-EBEC-4FC8-A13F-AECD05D08A7F}</ProjectGuid>
+    <RootNamespace>tac3common</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\tac3cool.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\tac3cool.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)../lib/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(ProjectDir)../lib/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\tac3math\tac3bezier.cpp" />
+    <ClCompile Include="..\src\tac3math\tac3pascal.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\eig3.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3boundingvolume.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3mathutil.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3matrix2.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3matrix3.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3matrix4.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3vector2.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3vector3.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3math\tac3vector4.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3util\tac3fileutil.cpp" />
+    <ClCompile Include="..\..\tac3common\src\tac3util\tac3utilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\tac3math\tac3bezier.h" />
+    <ClInclude Include="..\src\tac3math\tac3pascal.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\eig3.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3boundingvolume.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3mathutil.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3matrix2.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3matrix3.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3matrix4.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3vector2.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3vector3.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3math\tac3vector4.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3util\tac3fileutil.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3util\tac3utilities.h" />
+    <ClInclude Include="..\..\tac3common\src\tac3util\tac3windows.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

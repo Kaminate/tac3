@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\tac3core\include\core\tac3component.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3core.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3entity.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3system.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3systemApplication.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3systemGraphics.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tacWorldRenderTechnique.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3input.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3level.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3pid.h" />
+    <ClInclude Include="..\..\tac3core\include\core\tac3ui.h" />
+    <ClInclude Include="..\..\tac3core\include\core\TacTweak.h" />
+    <ClInclude Include="..\..\tac3core\src\imconfig.h" />
+    <ClInclude Include="..\..\tac3core\src\imgui.h" />
+    <ClInclude Include="..\..\tac3core\src\stb_textedit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\tac3core\src\tac3component.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3core.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3entity.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3system.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3systemApplication.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3systemGraphics.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tacWorldRenderTechnique.cpp" />
+    <ClCompile Include="..\..\tac3core\src\imgui.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3input.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3level.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3pid.cpp" />
+    <ClCompile Include="..\..\tac3core\src\tac3ui.cpp" />
+    <ClCompile Include="..\..\tac3core\src\TacTweak.cpp" />
+  </ItemGroup>
+</Project>
